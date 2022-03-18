@@ -1,0 +1,22 @@
+{
+  "name": "japan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/main.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haitiano1/JPProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haitiano1/JPProject/issues"
+  },
+  "homepage": "https://github.com/haitiano1/JPProject#readme",
+  "dependencies": {
+    "parcel": "^2.3.2"
+  }
+}
