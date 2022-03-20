@@ -1,0 +1,8 @@
+.header__navbar-item,
+.header__content-title,
+.header__content-description,
+.header__content-question,
+.header__content-btn {
+  color: var(--primary-color);
+  font-family: Lato;
+}

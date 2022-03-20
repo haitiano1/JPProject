@@ -1,6 +1,6 @@
 .header {
   background: url('/src/assets/images/background/Tokyo.png') no-repeat center;
-  padding-bottom: 60%;
+  padding-bottom: 40%;
   background-size: cover;
 }
 
@@ -9,10 +9,58 @@
   justify-content: space-between;
 }
 
+.header__logo {
+  margin: 56px 0 0 195px;
+}
+
 .header__navbar-list {
-  display: inline;
+  display: flex;
+  margin-right: 167px;
+  flex-direction: row;
 }
 
 .header__navbar-item {
-  color: var(--primary-color);
+  margin: 60px 0 0 82px;
+}
+
+.header__content {
+  margin-left: 191px;
+}
+
+.header__content-title {
+  width: 619px;
+  margin: 263px 0 22px;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.header__content-description {
+  width: 546px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 59px;
+}
+
+.header__content-option {
+  display: flex;
+}
+
+.header__content-check {
+  display: flex;
+  flex-direction: row;
+  margin: 0 61px 0 0;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.header__content-question,
+.header__content-img {
+  margin: 0 23px 22px 0;
+}
+
+.header__content-btn {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 15px 39px;
+  background-color: var(--button-header-color);
 }
