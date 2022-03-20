@@ -6,3 +6,10 @@
   color: var(--primary-color);
   font-family: Lato;
 }
+
+.benefits__list-title,
+.benefits__list-description,
+.benefits__heading {
+  font-family: Lato;
+  color: var(--secondary-color);
+}
