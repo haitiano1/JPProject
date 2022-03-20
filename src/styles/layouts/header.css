@@ -1,4 +1,18 @@
 .header {
-  background: url('/src/assets/images/Tokyo.png') no-repeat;
-  padding-bottom: 100%;
+  background: url('/src/assets/images/background/Tokyo.png') no-repeat center;
+  padding-bottom: 60%;
+  background-size: cover;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navbar-list {
+  display: inline;
+}
+
+.header__navbar-item {
+  color: var(--primary-color);
 }
