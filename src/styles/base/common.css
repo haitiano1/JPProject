@@ -9,7 +9,8 @@
 
 .benefits__list-title,
 .benefits__list-description,
-.benefits__heading {
+.benefits__heading,
+.places__heading {
   font-family: Lato;
   color: var(--secondary-color);
 }

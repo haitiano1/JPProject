@@ -3,7 +3,7 @@
   url('/src/assets/images/background/Tokyo.png');
   background-size: cover;
   padding-bottom: 20%;
-  position: relative;
+  z-index: 5;
 }
 
 .header__navbar {
