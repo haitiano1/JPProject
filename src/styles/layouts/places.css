@@ -1,8 +1,28 @@
-.places__item{
+.container{
+  padding: 0 89px;
+}
+
+.places__top{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .places__heading{
   font-size: 35px;
+}
+
+.text-line::after{
+  display: block;
+  content: "";
+  border-bottom: 2px solid var(--button-header-color);
+  width: 253px;
+}
+
+
+.places__img-top{
+  display: flex;
+}
+
+.places__img-bottom{
+  display: flex;
 }
