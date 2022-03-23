@@ -18,11 +18,37 @@
   width: 253px;
 }
 
+.places__item {
+  position: relative;
+}
+
+.places__item figcaption {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.places_text{
+  /* width: 600px; */
+  /* margin: 160px 0 22px; */
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.4px;
+}
+
+.places__heading::after{
+  padding-bottom: 7px;
+}
+
 
 .places__img-top{
   display: flex;
+  margin-top: 36px;
+  margin-bottom: 10px;
+  justify-content: space-evenly;
 }
 
 .places__img-bottom{
   display: flex;
+  justify-content: space-evenly;
 }

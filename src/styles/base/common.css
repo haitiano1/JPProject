@@ -2,7 +2,8 @@
 .header__content-title,
 .header__content-description,
 .header__content-question,
-.header__content-btn {
+.header__content-btn,
+.places_text {
   color: var(--primary-color);
   font-family: Lato;
 }
