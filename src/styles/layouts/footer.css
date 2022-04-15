@@ -1,0 +1,35 @@
+.footer{
+  background-color: rgba(14, 29, 40, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo{
+  margin: 132px 365px 197px 94px;
+}
+
+.footer__logo img{
+  width: 120px;
+}
+
+.footer__heading{
+  font-size: 18px;
+}
+
+.footer__list{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer__contact{
+  display: flex;
+  line-height: 24px;
+  flex: 3;
+  align-items: center;
+}
+
+.footer__company,
+.footer__locations,
+.footer__social{
+  flex: 1;
+}

@@ -3,7 +3,9 @@
 .header__content-description,
 .header__content-question,
 .header__content-btn,
-.places_text {
+.places_text,
+.footer__heading,
+.footer__list {
   color: var(--primary-color);
   font-family: Lato;
 }
@@ -11,7 +13,9 @@
 .benefits__list-title,
 .benefits__list-description,
 .benefits__heading,
-.places__heading {
+.places__heading,
+.places__prefecture-text,
+.places__featured-text {
   font-family: Lato;
   color: var(--secondary-color);
 }

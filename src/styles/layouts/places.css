@@ -29,7 +29,6 @@
 }
 
 .places_text{
-  /* width: 600px; */
   /* margin: 160px 0 22px; */
   font-size: 50px;
   line-height: 60px;
@@ -43,12 +42,67 @@
 
 .places__img-top{
   display: flex;
-  margin-top: 36px;
-  margin-bottom: 10px;
-  justify-content: space-evenly;
+  margin: 36px 0 10px;
+  justify-content: space-between;
+}
+
+.places__img-top img{
+  width: 644px;
+}
+
+.places__img-bottom img{
+  width: 427px;
 }
 
 .places__img-bottom{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
+
+.places__prefecture{
+  display: flex;
+  margin-top: 150px;
+}
+
+.places__prefecture-text{
+  margin: 30px 0 0 115px;
+}
+
+.places__prefecture-text h2,
+.places__featured-text{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.places__prefecture-text p,
+.places__featured-text p{
+  font-size: 16px;
+  line-height: 24px;
+  margin: 85px 0 66px;
+  width: 519px;
+}
+
+.places__featured{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 120px 97px 160px 43px;
+}
+
+.places__img{
+  position: relative;
+  z-index: 5;
+}
+.place__views{
+  position: absolute;
+  background: rgba(21, 24, 36, 0.6);
+  margin-top: -25px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  z-index: 10;
+}
+
+.video img{
+  width: 100%;
+}
+
