@@ -7,7 +7,8 @@
   justify-content: space-between;
 }
 
-.places__heading{
+.places__heading,
+.places__title{
   font-size: 35px;
 }
 
@@ -48,6 +49,7 @@
 
 .places__img-top img{
   width: 644px;
+  height: 400px;
 }
 
 .places__img-bottom img{
@@ -88,21 +90,66 @@
   margin: 120px 97px 160px 43px;
 }
 
-.places__img{
+.places__title{
+  padding-bottom: 54px;
+}
+
+.places__allView{
   position: relative;
   z-index: 5;
 }
-.place__views{
+.places__views{
+  width: 386px;
   position: absolute;
   background: rgba(21, 24, 36, 0.6);
-  margin-top: -25px;
+  bottom: 0.5%;
   display: flex;
   justify-content: space-between;
-  color: white;
   z-index: 10;
 }
 
-.video img{
-  width: 100%;
+.places__name,
+.places__react {
+  padding: 16px 25px;
 }
 
+.places__react{
+  display: flex;
+}
+
+.places__name{
+  text-transform: uppercase;
+}
+
+.places__heart {
+  margin-right: 14px;
+}
+
+.places__description{
+  width: 391px;
+  margin: 40px 0 31px 0;
+}
+
+.places__body-btn{
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 12px 19px;
+  border: none;
+  background-color: var(--button-header-color);
+}
+
+.places__card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 54px;
+}
+.places__card-item{
+  margin-bottom: 54px;
+}
+
+.video-background img{
+  width: 100%;
+  display: flex;
+}

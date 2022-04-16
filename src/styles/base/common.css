@@ -5,7 +5,9 @@
 .header__content-btn,
 .places_text,
 .footer__heading,
-.footer__list {
+.footer__list,
+.places__views,
+.places__body-btn {
   color: var(--primary-color);
   font-family: Lato;
 }
@@ -15,7 +17,9 @@
 .benefits__heading,
 .places__heading,
 .places__prefecture-text,
-.places__featured-text {
+.places__featured-text,
+.places__body,
+.places__title {
   font-family: Lato;
   color: var(--secondary-color);
 }
